@@ -1,0 +1,135 @@
+:root{
+    --color-title: #fff;
+  }
+/* ! Responsive area */
+
+@media screen and (max-width: 768px) 
+{
+    /* !Navbar */
+    .nav_bar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        right: 5%;
+        top: 20%;
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--color-title);
+        color: var(--color-title);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
+    }
+    #menu_bar:hover{
+        transform: scale(1.1);
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background-color: #24292d;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    .nav_links li a{
+        border-bottom: 1px solid var(--color-title);
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+
+    }
+
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
+
+    /* !Homepage */
+
+    .inner_homepage{
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+    }
+    .child_homepage{
+        flex-basis: 100%;
+    }
+    .child_homepage:last-child{
+        margin-bottom: 20px;
+    }
+    .child_home h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .child_home p{
+        font-size: 20px;
+    }
+
+    /* ! softwares */
+
+    .inner_software{
+        padding-bottom: 0;
+    }
+    .inner_software_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* !MyCertificate */
+    .inner_courses{
+        padding-bottom: 0;
+    }
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* !Achievements */
+
+    .child_achievement{
+        margin: 0 0 10px 95px;
+        
+    }
+
+    .child_achievement2{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .child_achievement2 .sd_3{
+        margin-bottom: 20px;
+    }
+
+/* !About us area */
+
+.child_testi{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+}
+.child_testi:last-child{
+    margin-bottom: 0;}
+
+/* !communication area */
+
+.child_contact{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+/* !Footer area */
+
+.child_footer{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.child_footer h3{
+    margin-bottom: 10px;
+}
+
+}
