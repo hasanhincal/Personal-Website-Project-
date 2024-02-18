@@ -1,16 +1,18 @@
 <h1>Personal Website Project</h1>
 
-<h2>Kullanılan Teklonojiler</h2>
+It is aimed to show our talents and achievements to potential employers or customers and an interface has been created in this way.
 
-HTML5 , CSS3 ve JS
+<h2>Technologies used in the project</h2>
 
-<h2>Ekran Gifi</h2>
+Codded in HTML5 , CSS3 ve JS
+
+<h2>Screen Gif</h2>
 
 ![](screen1.gif)
 
 ![](screen2.gif)
 
-<h2>Ekran Görüntüsü</h2>
+<h2>Screen picture</h2>
 
 ![](Ekran%20görüntüsü%202024-02-13%20160800.png)
 
