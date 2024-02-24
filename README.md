@@ -11,19 +11,3 @@ Codded in HTML5 , CSS3 ve JS
 ![](screen1.gif)
 
 ![](screen2.gif)
-
-<h2>Screen picture</h2>
-
-![](Ekran%20görüntüsü%202024-02-13%20160800.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20160847.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20160915.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20160938.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20161001.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20161108.png)
-
-![](Ekran%20görüntüsü%202024-02-13%20161201.png)
